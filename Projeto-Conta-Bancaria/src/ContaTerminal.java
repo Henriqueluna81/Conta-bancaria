@@ -20,7 +20,7 @@ public class ContaTerminal {
         infoConta.setNomeCliente(nomeUsuario);
 
         System.out.println("Olá "+ infoConta.getNomeCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é "
-                            +infoConta.getAgencia()+", conta " +infoConta.getNumero()+" e seu saldo "+infoConta.getSaldo()+
+                            +infoConta.getAgencia()+", conta " +infoConta.getNumero()+", e seu saldo "+infoConta.getSaldo()+
                             " já está disponível para saque.");
 
         scanner.close();
